@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Form</title>
+</head>
+
+<body>
+    <form action="#">
+        <label>
+            Текст
+            <input type="text" placeholder="Введите текст">
+        </label>
+        <button type="submit">Нажми меня</button>
+    </form>
+</body>
+
+<script>
+    const input = document.querySelector('input')
+    input.addEventListener("input", (event) => {
+        console.log(input.value)
+    })
+
+</script>
+
+</html>
+
